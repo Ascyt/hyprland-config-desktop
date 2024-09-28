@@ -7,7 +7,7 @@
 !waybar/*
 !waybar/*/*
 
-!ahk_x11
-!ahk_x11/*
+!xremap
+!xremap/*
 
 !.gitignore

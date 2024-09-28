@@ -1,0 +1,26 @@
+# Run using `sudo xremap ./xremap/config.yml`
+
+virtual_modifiers:
+  - CapsLock
+
+keymap:
+  - remap:
+      CapsLock-w: up
+      CapsLock-a: left
+      CapsLock-s: down
+      CapsLock-d: right
+
+      CapsLock-Alt-w: home
+      CapsLock-Alt-a: Ctrl-left
+      CapsLock-Alt-s: end
+      CapsLock-Alt-d: Ctrl-right
+
+      CapsLock-j: backspace
+      CapsLock-k: Ctrl-backspace
+      CapsLock-l: [backspace, backspace, backspace, backspace]
+      CapsLock-semicolon: [Shift-home, backspace]
+
+      CapsLock-Shift-j: Shift-left
+      CapsLock-Shift-k: Ctrl-Shift-left
+      CapsLock-Shift-l: [Shift-left, Shift-left, Shift-left, Shift-left]
+      CapsLock-Shift-semicolon: Shift-home
