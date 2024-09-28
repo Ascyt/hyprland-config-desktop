@@ -1,0 +1,23 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 24,
+    "modules-left": ["mpris"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["user"],
+    "hyprland/window": {
+
+    },
+    "mpris": {
+        "format": "{player} ({status}): {title} (by {artist})",
+        "tooltip-format": "{position} / {length}"
+    },
+
+    "user": {
+        "format": "{user} (up {work_H}:{work_M}:{work_S})",
+        "interval": 1,
+        "height": 30,
+        "width": 30,
+        "icon": true
+    }
+}
