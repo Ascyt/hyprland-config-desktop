@@ -1,0 +1,13 @@
+*
+
+!hypr
+!hypr/*
+
+!waybar
+!waybar/*
+!waybar/*/*
+
+!ahk_x11
+!ahk_x11/*
+
+!.gitignore
