@@ -24,3 +24,8 @@ keymap:
       CapsLock-Shift-k: Ctrl-Shift-left
       CapsLock-Shift-l: [Shift-left, Shift-left, Shift-left, Shift-left]
       CapsLock-Shift-semicolon: Shift-home
+
+      CapsLock-m: Super-m
+
+      CapsLock-e: KEY_SCROLLUP
+      CapsLock-i: KEY_SCROLLDOWN
