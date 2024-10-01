@@ -27,5 +27,7 @@ keymap:
 
       CapsLock-m: Super-m
 
-      CapsLock-e: KEY_SCROLLUP
-      CapsLock-i: KEY_SCROLLDOWN
+      CapsLock-e: SCROLLUP
+      CapsLock-i: SCROLLDOWN
+
+      BTN_RIGHT: Ctrl-v

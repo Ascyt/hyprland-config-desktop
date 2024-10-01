@@ -3,11 +3,7 @@
     "position": "bottom",
     "modules-left": ["sway/workspaces", "sway/mode", "cpu", "temperature", "memory"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": [ "privacy", "pulseaudio", "hyprland/language", "backlight/slider", "network", "upower", "battery", "clock"],
-    "battery": {
-        "format": "{capacity}% {icon}",
-        "format-icons": ["", "", "", "", ""]
-    },
+    "modules-right": [ "privacy", "pulseaudio", "backlight", "hyprland/language","network", "upower", "clock"],
     "clock": {
         "format": "{:%H:%M}  ",
         "format-alt": "{:%A, %B %d, %Y (%R)}  ",
@@ -33,11 +29,9 @@
             "on-scroll-down": "shift_down"
         }
     },
-    "backlight/slider": {
-        "min": 0,
-        "max": 100,
-        "orientation": "horizontal",
-        "device": "amd_backlight"
+    "backlight": {
+        "format": "{percent}% {icon}",
+        "format-icons": ["", ""]
     },
     "cpu": {
         "interval": 1,
@@ -75,7 +69,7 @@
         
     },
     "hyprland/language": {
-        "on-click": "hyprctl switchxkblayout steelseries-steelseries-apex-7-tkl next"
+        "on-click": "~/.config/switch_keyboard"
     },
     "pulseaudio": {
         "format": "{volume}% {icon}",
