@@ -1,4 +1,4 @@
-# Run using `sudo xremap ./xremap/config.yml`
+# Run using `sudo xremap ./xremap/config.yml --mouse`
 
 virtual_modifiers:
   - CapsLock
@@ -25,9 +25,22 @@ keymap:
       CapsLock-Shift-l: [Shift-left, Shift-left, Shift-left, Shift-left]
       CapsLock-Shift-semicolon: Shift-home
 
-      CapsLock-m: Super-m
+      CapsLock-f: Super-m
 
       CapsLock-e: SCROLLUP
       CapsLock-i: SCROLLDOWN
+      CapsLock-g: btn_left
+      CapsLock-h: btn_right
+      CapsLock-b: btn_middle
 
-      BTN_RIGHT: Ctrl-v
+      CapsLock-btn_right: Ctrl-i
+      CapsLock-btn_left: Ctrl-dot
+      CapsLock-scrollup: left
+      CapsLock-scrolldown: right
+      
+      CapsLock-m: [
+          Shift-left, 
+          Ctrl-i, 
+          launch: ["/bin/python", "/home/ascyt3/.config/xremap/script/umlaute.py"],
+          #Ctrl-dot
+        ]
